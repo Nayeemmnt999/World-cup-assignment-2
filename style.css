@@ -156,7 +156,10 @@ body{
 }
 /* footer end  */
 
-/* responsive  */
+/****************************************
+******** Mobile 600px responsive*********
+*****************************************/
+
 @media only screen and (max-width: 600px) {
   
     /* banner reaponsive  */
@@ -181,21 +184,21 @@ body{
     height:400px;
     }
 
-    /* article responsive  */
+ /* article responsive  */
 
-    .article-main{
-        flex-direction: column;
-    }
-    .article-child-two{
-        grid-template-columns: repeat(1, 1fr);
-    }
+.article-main{
+    flex-direction: column;
+ }
+.article-child-two{
+     grid-template-columns: repeat(1, 1fr);
+ }
 
-    /* footer responsive  */
+/* footer responsive  */
 
-    .footer-link{
-        text-align: center;
-        flex-direction: column;
-        justify-content: center;
-    }
+.footer-link{
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+ }
 
 }
